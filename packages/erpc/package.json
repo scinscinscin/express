@@ -1,0 +1,51 @@
+{
+  "name": "@scinorandex/erpc",
+  "private": true,
+  "version": "0.3.4",
+  "description": "A serverside framework for declaratively building type-safe express APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scinscinscin/erpc.git"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "express"
+  ],
+  "author": "scinorandex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scinscinscin/erpc/issues"
+  },
+  "homepage": "https://github.com/scinscinscin/erpc#readme",
+  "devDependencies": {
+    "@types/morgan": "^1.9.4",
+    "@types/ws": "^8.5.10",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "1.4.3",
+    "@types/cors": "2.8.13",
+    "@types/express": "4.17.15",
+    "@types/flat": "^5.0.2",
+    "@types/formidable": "^2.0.5",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "flat": "^5.0.2",
+    "formidable": "^2.1.1",
+    "morgan": "^1.10.0",
+    "ws": "^8.16.0",
+    "zod": "3.20.2"
+  }
+}
